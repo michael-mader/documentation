@@ -10659,6 +10659,70 @@ api:
         - GetLogsArchiveOrder
       unstable: []
       order: 9
+  - name: Logs Custom Destinations
+    url: /api/latest/logs-custom-destinations/
+    identifier: logs-custom-destinations
+    generated: true
+  - name: Update a custom destination
+    url: '#update-a-custom-destination'
+    identifier: logs-custom-destinations-update-a-custom-destination
+    parent: logs-custom-destinations
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - UpdateLogsCustomDestination
+      unstable: []
+      order: 4
+  - name: Get a custom destination
+    url: '#get-a-custom-destination'
+    identifier: logs-custom-destinations-get-a-custom-destination
+    parent: logs-custom-destinations
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - GetLogsCustomDestination
+      unstable: []
+      order: 3
+  - name: Delete a custom destination
+    url: '#delete-a-custom-destination'
+    identifier: logs-custom-destinations-delete-a-custom-destination
+    parent: logs-custom-destinations
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - DeleteLogsCustomDestination
+      unstable: []
+      order: 5
+  - name: Create a custom destination
+    url: '#create-a-custom-destination'
+    identifier: logs-custom-destinations-create-a-custom-destination
+    parent: logs-custom-destinations
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - CreateLogsCustomDestination
+      unstable: []
+      order: 2
+  - name: Get all custom destinations
+    url: '#get-all-custom-destinations'
+    identifier: logs-custom-destinations-get-all-custom-destinations
+    parent: logs-custom-destinations
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ListLogsCustomDestinations
+      unstable: []
+      order: 1
   - name: Logs Metrics
     url: /api/latest/logs-metrics/
     identifier: logs-metrics
